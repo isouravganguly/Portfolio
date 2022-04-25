@@ -8,7 +8,7 @@
 
 
         <!-- =============== SWIPER CSS =============== -->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!-- =============== CSS =============== -->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -580,7 +580,7 @@
         <i class="uil uil-arrow-right button-icon"></i>
     </span>
 
-    <div class="project__modal active-modal">
+    <div class="project__modal">
         <div class="project__modal-content">
         <h4 class="project__modal-title">My Portfolio</h4>
         <i class="uil uil-times project__modal-close"></i>
@@ -607,9 +607,10 @@
             </li>
         </ul>
 
-        <div class="explore-git">
+        <a href="github.com" class="button button--flex button--small explore-git">Explore more at github <i class="uil uil-github-alt"></i></a>
+        <!-- <div class="explore-git">
             Explore more at Github!
-        </div>
+        </div> -->
     </div>
     </div>
 </div>
@@ -627,7 +628,92 @@
 
 
             <!-- /* ========================= PORTFOLIO ================================= */ -->
+<section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Also,</h2>
+    <span class="section__subtitle">More interests</span>
 
+    <div class="portfolio__container container swiper mySwiper">
+        <div class="swiper-wrapper">
+<!-- /* ========================= PORTFOLIO 1 ================================= */ -->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
+            
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Modern Website</h3>
+                    <p class="portfolio__description">
+                        Website adaptable to all devices and animated interactions.
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            
+            </div>
+
+
+<!-- /* ========================= PORTFOLIO 2 ================================= */ -->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+            
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Brand Design</h3>
+                    <p class="portfolio__description">
+                        Website adaptable to all devices and animated interactions.
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            
+            </div>
+
+<!-- /* ========================= PORTFOLIO 3 ================================= */ -->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
+            
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Brand Design</h3>
+                    <p class="portfolio__description">
+                        Website adaptable to all devices and animated interactions.
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            
+            </div>
+
+ <!-- /* ========================= PORTFOLIO 4 ================================= */ -->
+            <div class="portfolio__content grid swiper-slide">
+                <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
+            
+                <div class="portfolio__data">
+                    <h3 class="portfolio__title">Online Store</h3>
+                    <p class="portfolio__description">
+                        Website adaptable to all devices and animated interactions.
+                    </p>
+                    <a href="#" class="button button--flex button--small portfolio__button">
+                        Demo <i class="uil uil-arrow-right button__icon"></i>
+                    </a>
+                </div>
+            
+            </div>
+
+
+        </div>
+         <!--  Add ARROWS -->
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right swipper-portfolio-icon"></i>
+        </div>
+      <div class="swiper-button-prev">
+        <i class="uil uil-angle-left-b swipper-portfolio-icon"></i>
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+    </div>
+</section>
 
 
 <!-- ======================= Projects in Mind =========================== -->
@@ -664,6 +750,7 @@
                     <!-- ========================== QUALIFICATION 1 =========================== -->
                                         <div class="qualification__data">
                                             <div>
+                                                <img src="assets/img/BCCL.jpeg" alt="" class="qualification__img">
                                                 <h3 class="qualification__title">Software Developer</h3>
                                                 <span class="qualification__subtitle">Bharat Coking Coal Limited (BCCL)</span>
                                                 <div class="qualification__calendar">
@@ -714,6 +801,7 @@
 <!-- ========================== QUALIFICATION 1 =========================== -->
                     <div class="qualification__data">
                         <div>
+                            <img src="assets/img/WBUT.jpeg" alt="" class="qualification__img">
                             <h3 class="qualification__title">Computer Science Engineering</h3>
                             <span class="qualification__subtitle">Makulana Abul Kalam Azad University</span>
                             <div class="qualification__calendar">
@@ -738,6 +826,7 @@
                         </div>
 
                         <div>
+                            <img src="assets/img/CMRI.jpeg" alt="" class="qualification__img">
                             <h3 class="qualification__title">Higher Secondary, ISC</h3>
                             <span class="qualification__subtitle">De Nobili School, CMRI</span>
                             <div class="qualification__calendar">
@@ -751,6 +840,7 @@
                     <div class="qualification__data">
 
                         <div>
+                            <img src="assets/img/DNSKoradih.jpeg" alt="" class="qualification__img">
                             <h3 class="qualification__title">Primary & High School, ICSE</h3>
                             <span class="qualification__subtitle">De Nobili School, Sijua</span>
                             <div class="qualification__calendar">
@@ -789,7 +879,7 @@
 
 
         <!-- ================= SWIPER JS ================= -->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!-- ================ MAIN JS ================ -->
         <script src="assets/js/main.js"></script>
