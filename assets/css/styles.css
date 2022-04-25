@@ -1059,7 +1059,7 @@ img{
 
 /* ====================== MEDIA QUERIES ====================== */
 /* -----For Small Devices ------- */
-@media screen and (max-width: 350px){
+@media screen and (min-width: 350px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1243,7 +1243,22 @@ img{
         grid-template-columns: repeat(3, 218px);
         justify-content: center;
     }
+    .project__icon{
+        font-size: 2rem;
+    }
+    .project__content{
+        padding: 6rem 0 2rem 2.5rem;
+    }
+    .project__modal-content{
+        width: 450px;
+    }
 
+    .portfolio__img{
+        width: 320px;
+    }
+    .portfolio__content{
+        align-items: center;
+    }
 }
 
 
