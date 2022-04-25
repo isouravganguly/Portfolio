@@ -366,6 +366,15 @@ img{
     color: var(--first-color-alt);
 }
 
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: aliceblue;
+}
+
 
 /* ============================ ABOUT ============================= */
 .about__img{
@@ -785,3 +794,39 @@ img{
     opacity: 1;
     visibility: visible;
 }
+
+/* ========================== PROJECTS IN MIND ++++++++++++++++++++++++++++++++++ */
+.project_in_mind{
+    text-align: center;
+}
+
+.project_in_mind__bg{
+    background-color: var(--first-color);
+    padding-top: 3rem;
+}
+
+.project_in_mind__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project_in_mind__description{
+    margin-bottom:var(--mb-1-5);
+}
+
+.project_in_mind__title,
+.project_in_mind__description{
+    color: #FFF;
+}
+
+.project_in_mind__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 232px;
+}
+
+.project_in_mind__buttons{
+    justify-content: space-evenly;
+}
+
