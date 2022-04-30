@@ -1,0 +1,9 @@
+<svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<mask id="mask0" mask-type="alpha">
+	<path fill="#474bff" d="M340,328.5Q240,417,137,328.5Q34,240,137,127.5Q240,15,340,127.5Q440,240,340,328.5Z" />
+	</mask>
+	<g mask="url(#mask0)">
+        <path fill="#474bff" d="M340,328.5Q240,417,137,328.5Q34,240,137,127.5Q240,15,340,127.5Q440,240,340,328.5Z" />
+	<image href=""/>
+    </g>
+</svg>
