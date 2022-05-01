@@ -7,7 +7,7 @@
 
     /* ============= colors ================= */
      /* Change favorite color  */
-     --hue-color:230;
+     --hue-color:220;
      /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
 
     /* HSL color made */
@@ -164,8 +164,8 @@ img{
 /* ================== LAYOUT ================== */
 .container{
     max-width: 768px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
 }
 
 .grid{
@@ -714,20 +714,26 @@ img{
 }
 
 .qualification__subtitle{
-    display:inline-block;
-    font-size: var(--h2-font-size);
+    display:flex;
+    font-size: 2rem;
     margin-bottom: var(--mb-1);
 }
 
 .qualification__calendar{
-    font-size: 1rem;
+    display: flex;
+    font-size: 2.1rem;
     color: var(--text-color-light);
 }
 
 .qualification__calendar-icon{
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: var(--font-medium);
+}
+
+.qualification__calendar-year{
+    font-size: 2.1rem;
+    padding: 0.5rem;
 }
 
 .qualification__rounder{
