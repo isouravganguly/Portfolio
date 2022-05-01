@@ -380,7 +380,7 @@ img{
     display: flex;
     margin-top: 2.4rem;
     padding: 1rem 2rem;
-    background-color: rgb(245, 245, 245);
+    background-color: var(--container-color);
     border-radius: 4rem;
 
 }
@@ -945,7 +945,7 @@ img{
 
 .testimonial__bg{
     padding: 1.5rem;
-    background-color:aliceblue;
+    background-color:var(--container-color);
     border-radius: 0.5rem;
 }
 
@@ -960,6 +960,7 @@ img{
 
 .testimonial__name{
     font-size: var(--h1-font-size);
+    color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
@@ -982,7 +983,7 @@ img{
 }
 
 .testimonial__icon{
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .testimonial__stars{
