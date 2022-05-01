@@ -986,6 +986,8 @@ img{
 
 .testimonial__icon{
     font-size: 2rem;
+    padding-right: 0.2rem;
+    color: var(--first-color);
 }
 
 .testimonial__stars{
